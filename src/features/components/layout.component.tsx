@@ -16,7 +16,10 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {"PI - Senac Santo Amaro - "}
-      <Link color="inherit" href="https://mui.com/">
+      <Link
+        color="inherit"
+        href="https://github.com/aton-py/franciscan-shelter"
+      >
         Github
       </Link>{" "}
       {new Date().getFullYear()}
